@@ -23,7 +23,6 @@ def take_a_number(katz_deli, name)
 #   line.push("Welcome, #{name}. You are number #{line_pos} in line.")
 #   binding.pry
 # end 
- puts "#{line.join}"
 end
 
 def now_serving 
