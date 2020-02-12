@@ -22,5 +22,7 @@ end
 def now_serving(katz_deli) 
   if katz_deli.length == 0 
     puts  "There is nobody waiting to be served!"
+  elsif katz_deli.length >= 1 
+    puts ""
   end 
 end
